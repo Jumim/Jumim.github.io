@@ -39,19 +39,19 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 #email:
-#twitter:            username
-#facebook:           username
+#twitter:           username
+#facebook:          username
 github-url:         Jumim
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-#instagram:          username
+#instagram:         username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-#steam:              username
+#steam:             username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
@@ -60,8 +60,9 @@ github-url:         Jumim
 #flickr:            username
 #codepen:           username
 #keybase:           username
-xmpp:              a25320@naver.com
+#xmpp:              ex.com
 #hackernews:        username
+naver:				https://blog.naver.com/a25320
 
 # Gems
 gems:
