@@ -91,10 +91,19 @@ hr {
 	background-color: #353535;
 	&.hr-line {
 		border: 0;
-		height: 1px;
-		opacity: .15;
-		margin: 1em 0;
-		background-color: #353535;
+    	height: 1px;
+    	opacity: .15;
+    	margin: 1em auto;
+    	background-color: #353535;
+    	width: 82%;
+	}
+	&.hr-line-2 {
+		border: 0;
+    	height: 1px;
+    	opacity: .15;
+    	margin: 1em auto;
+    	background-color: #353535;
+    	width: 68%;
 	}
 }
 
