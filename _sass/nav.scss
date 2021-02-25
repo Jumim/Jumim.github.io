@@ -389,7 +389,7 @@ $pi: 3.14;
 
 //config
 $menu_items: 4;
-$open_distance: 115px;
+$open_distance:115px;
 $opening_angle: $pi - .2;
 
 %ball{
@@ -496,8 +496,8 @@ $hamburger-spacing:8px;
   transition-timing-function:cubic-bezier(0.935, 0.000, 0.340, 1.330);
   @for $i from 1 through $menu_items{
     $angle:(($pi - $opening_angle)/2)+(($opening_angle/($menu_items - 1))*($i - 1));
-		$x:cos($angle) * $open_distance;
-		$y:sin($angle) * $open_distance;
+		$x:cos($angle)+$open_distance;
+		$y:sin($angle)+$open_distance;
 
     &:nth-child(#{$i+2}){
       transition-duration:80ms+(80ms*$i);
