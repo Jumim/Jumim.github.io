@@ -70,6 +70,7 @@
 			margin:0;
 			padding: 15px 20px 0;
 			color: rgba($white,0.9);
+			font-weight: 400;
 		}
 		p {
 			margin: 0;
@@ -160,6 +161,7 @@
 	.dl-submenu {
 		@include rounded(3px);
 		box-shadow: 0 12px 24px rgba($black,0.4);
+		background: rgb(127 103 154 / 40%);
 		.btn {
 			margin-bottom: 0;
 		}
@@ -180,6 +182,7 @@ All this is done for any sub-level being entered.
 .dl-menu.dl-subview li.dl-subviewopen > a,
 .dl-menu.dl-subview li.dl-subview > a {
 	display: none;
+	transform: skew(-0.03deg);
 }
 .dl-menu.dl-subview li.dl-subview,
 .dl-menu.dl-subview li.dl-subview .dl-submenu,
@@ -187,6 +190,7 @@ All this is done for any sub-level being entered.
 .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu,
 .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu > li {
 	display: block;
+	transform: skew(-0.03deg);
 }
 /* Animation classes for moving out and in */
 .dl-menu.dl-animate-out {
