@@ -75,6 +75,7 @@
     margin: 10px;
     @include font-rem(16);
     font-weight: 500;
+		transform: skew(-0.03deg);
 }
 .post-list {
     .btn {
@@ -165,7 +166,7 @@ figure {
   }
 }
 svg:not(:root) {
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 // keyboard tag
