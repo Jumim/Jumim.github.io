@@ -448,7 +448,6 @@ $hamburger-spacing:8px;
   }
 }
 .menu{
-  @extend %goo;
   $width:380px;
   $height:250px;
   position:absolute;
