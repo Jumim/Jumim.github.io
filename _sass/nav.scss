@@ -30,17 +30,13 @@
 		outline: none;
 		@include border-radius(0,3px,0,0);
 		@media #{$notsmall} {
-			@include border-radius(3px,3px,3px,3px);
+			@include border-radius(24px,24px,24px,24px);
 		}
 	}
 	button:hover,
 	button.dl-active,
 	ul {
-		background: #aaa;
-	}
-	button:hover span {
-		-webkit-animation-name: rainbowLink;
-	  animation-name: rainbowLink;
+		//background: #aaa;
 	}
 	button.dl-active {
 		display: none;
@@ -54,6 +50,12 @@
 		font-weight: bold;
 		color: #fff;
 		text-indent: initial;
+		transition: all 0.2s;
+	}
+	button:hover span, button:active span {
+		animation-duration: 3s;
+		animation-name: rainbowLink;
+		animation-iteration-count: infinite;
 	}
 	ul {
 		padding: 0;
@@ -139,7 +141,7 @@
 		-moz-backface-visibility: hidden;
 		backface-visibility: hidden;
 		@media #{$notsmall} {
-			@include border-radius(24px,24px,24px,24px);
+			@include border-radius(3px,3px,3px,3px);
 			max-height: 650px;
 		}
 	}
