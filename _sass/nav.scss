@@ -388,15 +388,15 @@ $fg: rgba(175,152,223,0.6);
 $pi: 3.14;
 
 //config
-$menu-items: 4;
-$open-distance: 115px;
-$opening-angle: $pi - .2;
+$menu_items: 4;
+$open_distance: 115px;
+$opening_angle: $pi - .2;
 
 %ball{
   background:$fg;
   border-radius:100%;
-  width:80px;
-  height:80px;
+  width:64px;
+  height:64px;
   margin-left:-40px;
   position:absolute;
   top:20px;
@@ -451,7 +451,8 @@ $hamburger-spacing:8px;
   $width:380px;
   $height:250px;
   position:absolute;
-  left:50%;
+	top: 13px;
+	left: 64px;
   margin-left:-$width/2;
   padding-top:20px;
   padding-left:$width/2;
@@ -467,7 +468,7 @@ $hamburger-spacing:8px;
     background:white;
     color:$fg;
   }
-  @for $i from 1 through $menu-items{
+  @for $i from 1 through $menu_items{
     &:nth-child(#{$i+2}){
       transition-duration:10ms+(60ms*($i));
     }
@@ -493,10 +494,10 @@ $hamburger-spacing:8px;
 
 .menu-open:checked~.menu-item{
   transition-timing-function:cubic-bezier(0.935, 0.000, 0.340, 1.330);
-  @for $i from 1 through $menu-items{
-    $angle:(($pi - $opening-angle)/2)+(($opening-angle/($menu-items - 1))*($i - 1));
-		$x:cos($angle) * $open-distance;
-		$y:sin($angle) * $open-distance;
+  @for $i from 1 through $menu_items{
+    $angle:(($pi - $opening_angle)/2)+(($opening_angle/($menu_items - 1))*($i - 1));
+		$x:cos($angle) * $open_distance;
+		$y:sin($angle) * $open_distance;
 
     &:nth-child(#{$i+2}){
       transition-duration:80ms+(80ms*$i);
