@@ -76,6 +76,9 @@
     @include font-rem(16);
     font-weight: 500;
 		transform: skew(-0.03deg);
+		@media #{$medium} {
+			font-size: 0.8rem;
+		}
 }
 .post-list {
     .btn {
