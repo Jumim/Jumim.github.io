@@ -6,7 +6,7 @@
     <span class="lines line-3"></span>
   </label>
 
-   <a href="#" class="menu-item"> <i class="fa fa-home"></i> </a>
-   <a href="#" class="menu-item"> <i class="fas fa-pen-square"></i> </a>
-   <a href="{{ domain }}{{ link.url }}" class="menu-item" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a>
+   <a href="{{ site.url }}" class="menu-item"> <i class="fa fa-home"></i> </a>
+   <a href="{{ site.url }}/posts" class="menu-item"> <i class="fa fa-pen-square"></i> </a>
+   <a href="{{ site.url }}/projects" class="menu-item"> <i class="fas fa-project-diagram"></i> </a>
 </nav>
