@@ -22,15 +22,7 @@ a {
 }
 
 .menu-item {
-  background: #deb7ee66 !important;
-  .fa {
-    color: #fff;
-    position: absolute;
-    top: 54%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-  }
+  background: rgba(222,183,238,0.2) !important;
 }
 
 .menu-open {
@@ -93,6 +85,36 @@ a {
    box-sizing: border-box;
    font-size: 26px;
    z-index: 2;
+}
+
+.menu {
+  a {
+    .fa {
+      color: #fff;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+    }
+  }
+
+  a:nth-child(1) {
+    .fa {
+      top: 54%;
+      left: 50%;
+    }
+  }
+  a:nth-child(2) {
+    .fa {
+      top: 54%;
+      left: 53%;
+    }
+  }
+  a:nth-child(3) {
+    .fa {
+      top: 54%;
+      left: 50%;
+    }
+  }
 }
 
 .menu-item:hover {
