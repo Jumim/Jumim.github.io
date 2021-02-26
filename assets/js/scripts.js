@@ -98,7 +98,7 @@ $(document).ready(function(){
       .appendTo("body")
     ;
     var ctx=$layer.get(0).getContext("2d");
-    ctx.fillStyle="#00f6ff";
+    ctx.fillStyle="#6E2FC7";
     contexts.push(ctx);
     startBlinking($layer);
 
