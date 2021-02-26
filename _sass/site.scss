@@ -17,7 +17,7 @@ body {
 	font-family: 'CookieRun-Regular', sans-serif;
 	@include font-rem($doc-font-size);
 	color: $color_tuatara;
-	background-color: $bodycolor;
+	background-color: transparent;
 	background-position: center center;
 	background-attachment: fixed;
 	@media #{$small} {
