@@ -61,7 +61,6 @@ $(document).ready(function(){
   var layers=6;
   var starDensity=0.0025;
 
-
   var ww=$(window).width();
   var wh=$(window).height();
 
