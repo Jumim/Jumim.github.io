@@ -21,7 +21,6 @@ body {
 	background-position: center center;
 	background-attachment: fixed;
 	@media #{$small} {
-	    background-image: none !important;
 		background: $white;
 	}
 }
@@ -84,8 +83,9 @@ body {
 	box-shadow: 0 0 0px 9999px rgba(0,0,0,0.2);
 	@include transition(.5s);
 	@media #{$small} {
-		width: 100%;
-	    box-shadow: none;
+		width: 85%;
+	  box-shadow: none;
+		margin-top: 14%;
 	}
 	@media #{$medium} {
 		width: 80%;
@@ -99,7 +99,7 @@ body {
 	    margin-bottom: 10px;
 	}
 	@media #{$small} {
-		padding: 0 1em;
+		padding: 12px 0;
 	}
 }
 .wrapper {
