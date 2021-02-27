@@ -15,6 +15,9 @@ a {
     transform: translate(-50%, -50%);
     font-size: 20px;
   }
+  @media #{$small} {
+		display: none !important;
+	}
 }
 
 .menu-item,
@@ -218,4 +221,7 @@ a {
   position: fixed;
   top:0;
   left:0;
+  @media #{$small} {
+		display: none !important;
+	}
 }
