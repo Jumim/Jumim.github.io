@@ -73,7 +73,7 @@
 }
 .title .btn {
     margin: 10px;
-    @include font-rem(16);
+    @include font-rem(15);
     font-weight: 500;
 		transform: skew(-0.03deg);
 		@media #{$medium} {
