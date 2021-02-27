@@ -97,10 +97,13 @@ body {
 	text-align: center;
 	.title {
 	    margin-top: 0;
-	    margin-bottom: 10px;
+	    margin-bottom: 15px;
 	}
 	@media #{$small} {
 		padding: 12px 0;
+		.title {
+			margin-bottom: 10px;
+		}
 	}
 }
 .wrapper {
