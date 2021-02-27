@@ -3,13 +3,13 @@ a {
 }
 
 .go_home {
-  position: absolute;
+  position: fixed;
   top: 30px;
   right: 40px;
   z-index: 2;
   .fa {
     color: #fff;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
