@@ -2,6 +2,21 @@ a {
    color: inherit;
 }
 
+.go_home {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  z-index: 2;
+  .fa {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+}
+
 .menu-item,
 .menu-open-button {
    background: rgba(66,57,70,1.0);
@@ -203,10 +218,4 @@ a {
   position:absolute;
   top:0;
   left:0;
-}
-
-.go_home {
-  position: absolute;
-  top: 30px;
-  right: 40px;
 }
