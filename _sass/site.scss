@@ -69,6 +69,10 @@ body {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
+	@media #{$small} {
+		display: block !important;
+		padding: 10% 0 5% 0;
+	}
 }
 .container {
 	width: 36rem;
