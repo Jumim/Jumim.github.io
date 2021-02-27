@@ -1,6 +1,6 @@
 ---
 layout: post-list
 title: POST
-excerpt: "POST LIST"
+excerpt: "Post list"
 comments: false
 ---
