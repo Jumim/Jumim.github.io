@@ -43,6 +43,7 @@ body {
 	color: $white;
 	@media #{$small} {
 		display: block !important;
+		padding-top: 8%;
 	}
 	@media only screen and (max-height: 500px) {
 
