@@ -58,13 +58,15 @@ comments: false
 __볼드체__
 {% endhighlight %}
 
-**볼드체**  
+**볼드체**   
 __볼드체__
 
 {% highlight html %}
+*이텔릭체*
 _이텔릭체_
 {% endhighlight %}
 
+*이텔릭체*   
 _이텔릭체_
 
 {% highlight html %}
@@ -84,19 +86,19 @@ _이텔릭체_
 {% endhighlight %}
 
 > 인용구
->> 인용구
+>	> 인용구인용구
 
 ## 3. 이미지
 
 {% highlight html %}
 ![이미지이름](https://Jumim.github.io/assets/img/test.jpg)
 
-<img src="https://Jumim.github.io/assets/img/test.jpg" alt="test">
+<img src="https://Jumim.github.io/assets/img/test.jpg" alt="test" width="600">
 {% endhighlight %}
 
 ![test](https://Jumim.github.io/assets/img/test.jpg "test")
 
-<img src="https://Jumim.github.io/assets/img/test.jpg">
+<img src="https://Jumim.github.io/assets/img/test.jpg" alt="test"  width="600">
 
 img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
 
@@ -119,29 +121,59 @@ img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
 * Item one
 * Item two
 * Item three
+
++ red
+  + blue
+    + green
+
+- red
+  - blue
+    - green
 {% endhighlight %}
 
 * Item one
 * Item two
 * Item three
 
++ red
+  + blue
+    + green
+
+- red
+  - blue
+    - green
+
 ## 5. 링크
 {% highlight html %}
-[개발의 줌인](https://jumim.github.io//test/)
+[타이틀](https://jumim.github.io/)
 <https://jumim.github.io//test/>
-[1. 제목](#1제목)
 {% endhighlight %}
 
-[개발의 줌인](https://jumim.github.io//test/)  
-<https://jumim.github.io//test/>  
-[1. 제목](#1제목)  
+[개발의 줌인](https://jumim.github.io/)  
+<https://jumim.github.io/>
 
 ## 6. 내용
 {% highlight html %}
----
+* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
 {% endhighlight %}
 
----
+* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
 
 수평선
 
@@ -149,8 +181,8 @@ img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
 공백 두칸 추가하면  줄 바꿈
 {% endhighlight %}
 
-줄바꾸기  
-띄어쓰기 두번(스페이스바 2번 입력)하면 줄 바꾸기
+줄바꾸기   
+3칸이상 띄어쓰기하면 줄바꿈!!   
 
 
 ---
@@ -186,6 +218,43 @@ img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
 ### 7-2. 수식
 
 
-### 7-3. 코드블록
+### 7-3. 코드블럭
+{% highlight html %}
+<pre>
+<code>
+public class Test {
+  public static void main(String[] args) {
+    System.out.println("Hello, world!");
+  }
+}
+</code>
+</pre>
 
-__계속 추가예정__
+```java
+public class Test {
+  public static void main(String[] args) {
+    System.out.println("Hello, world!");
+  }
+}
+```
+{% endhighlight %}
+
+<pre>
+<code>
+public class Test {
+  public static void main(String[] args) {
+    System.out.println("Hello, world!");
+  }
+}
+</code>
+</pre>
+
+```java
+public class Test {
+  public static void main(String[] args) {
+    System.out.println("Hello, world!");
+  }
+}
+```
+
+#__계속 추가예정__
