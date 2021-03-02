@@ -98,7 +98,7 @@ _이텔릭체_
 
 ![test](https://Jumim.github.io/assets/img/test.jpg "test")
 
-<img src="https://Jumim.github.io/assets/img/test.jpg" alt="test"  width="600">
+<img src="https://Jumim.github.io/assets/img/test.jpg" alt="test" width="600">
 
 img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
 
@@ -120,7 +120,6 @@ img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
 {% highlight html %}
 * Item one
 * Item two
-* Item three
 
 + red
   + blue
@@ -133,7 +132,6 @@ img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
 
 * Item one
 * Item two
-* Item three
 
 + red
   + blue
@@ -185,7 +183,9 @@ img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
 3칸이상 띄어쓰기하면 줄바꿈!!   
 
 
+
 ---
+
 
 
 ## 7. 그 밖의 유용한 기능
@@ -198,8 +198,9 @@ img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
 | cell1   | cell2   | cell3   |
 | cell4   | cell5   | cell6   |
 |=====
-| Foot1   | Foot2   | Foot3
+| Foot1   | <span style="color: blue">Foot2</span>   | Foot3
 {: rules="groups"}
+{: class="test_table"}
 {% endhighlight %}
 
 | Header1 | Header2 | Header3 |
