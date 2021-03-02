@@ -132,11 +132,11 @@ img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
 
 * Item one
 * Item two
-
+<br>
 + red
   + blue
     + green
-
+<br>
 - red
   - blue
     - green
