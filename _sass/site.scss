@@ -14,7 +14,7 @@ html {
 body {
 	@extend %extend1;
 	/* font-family: $font1; */
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'NanumBarunGothic', 'Noto Sans KR', sans-serif;
 	@include font-rem($doc-font-size);
 	color: $color_tuatara;
 	background-color: transparent;
