@@ -16,37 +16,37 @@ comments: false
 ## 1. 제목
 
 {% highlight html %}
-# h1
+# Heading 1
 {% endhighlight %}
 
 # Heading 1
 
 {% highlight html %}
-# h2
+## Heading 2
 {% endhighlight %}
 
 ## Heading 2
 
 {% highlight html %}
-# h3
+### Heading 3
 {% endhighlight %}
 
 ### Heading 3
 
 {% highlight html %}
-# h4
+#### Heading 4
 {% endhighlight %}
 
 #### Heading 4
 
 {% highlight html %}
-# h5
+##### Heading 5
 {% endhighlight %}
 
 ##### Heading 5
 
 {% highlight html %}
-# h6
+###### Heading 6
 {% endhighlight %}
 
 ###### Heading 6

@@ -8,6 +8,8 @@
 	text-rendering: optimizelegibility !important;
 	text-align: justify;
 	transform: skew(-0.03deg);
+	font-weight: 600;
+	letter-spacing: .4px;
 	@media #{$small} {
 		padding: 0 2em;
 	}
