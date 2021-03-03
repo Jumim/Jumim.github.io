@@ -261,21 +261,4 @@ public class Test {
 }
 ```
 
-### 7-4. 더보기 기능
-{% highlight html %}
-<details>
-<summary>더보기</summary>
-
-내용
-
-</details>
-{% endhighlight %}
-
-<details>
-<summary>더보기</summary>
-
-내용
-
-</details>
-
 # __계속 추가예정__
