@@ -190,15 +190,18 @@ kbd {
 
 // go up button
 .goup-container {
-    border-radius: 3px !important;
-    border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka !important;
+    border-radius: 25% !important;
+    border-color: rgba(244, 244, 244,0.5) rgba(244, 244, 244,0.5) #f4f4f4 !important;
     border: 1px solid;
+		z-index: 2;
 	@media #{$small} {
 		display: none !important;
 	}
 }
 .goup-arrow {
-    border-color: transparent transparent $color_tuatara !important;
+    //border-color: transparent transparent $color_tuatara !important;
+    border: none !important;
+		background-image: url('https://jumim.github.io/assets/img/up_arrow.png');
 }
 
 // reading time
