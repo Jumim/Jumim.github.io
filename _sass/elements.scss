@@ -200,9 +200,15 @@ kbd {
 }
 .goup-arrow {
     //border-color: transparent transparent $color_tuatara !important;
+    position: absolute;
+    top: 1.4px;
+    left: 1px;
+		width: 100% !important;
     border: none !important;
 		background-image: url('https://jumim.github.io/assets/img/up_arrow.png');
-		background-size: 20px 20px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	  transform: rotate(-90deg);
 }
 
 // reading time
