@@ -51,6 +51,8 @@ comments: false
 
 ###### Heading 6
 
+<br>
+
 ## 2. 텍스트
 
 {% highlight html %}
@@ -83,10 +85,13 @@ _이텔릭체_
 
 {% highlight html %}
 > 인용구
+>> 인용구인용구
 {% endhighlight %}
 
 > 인용구
 >> 인용구인용구
+
+<br>
 
 ## 3. 이미지
 
@@ -101,6 +106,8 @@ _이텔릭체_
 <img src="https://Jumim.github.io/assets/img/test.jpg" alt="test" width="600">
 
 img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
+
+<br>
 
 ## 4. 리스트
 {% highlight html %}
@@ -132,14 +139,20 @@ img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
 
 * Item one
 * Item two
+
 <br>
+
 + red
   + blue
     + green
+
 <br>
+
 - red
   - blue
     - green
+
+<br>
 
 ## 5. 링크
 {% highlight html %}
@@ -149,6 +162,8 @@ img 태그로 쓰면 width="" height="" 추가해서 사이즈 조절 가능!
 
 [개발의 줌인](https://jumim.github.io/)  
 <https://jumim.github.io/>
+
+<br>
 
 ## 6. 내용
 ### 6-1. 수평선
