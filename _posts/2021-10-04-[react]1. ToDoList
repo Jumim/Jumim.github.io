@@ -1,0 +1,42 @@
+---
+layout: post
+title: "[react]1. ToDoList(1)"
+date: 2021-10-04
+excerpt: "[react]1. ToDoList(1)"
+tags:
+- react
+- 리액트
+- react.js
+- ToDoList
+project: true
+comments: false
+---
+
+# 1. react 시작
+## 1-1. yarn 설치
+
+일단 회사에서 사용하는거랑 비슷하게 세팅해보려고 yarn이랑 타입스크립트 버전으로 맞추겠습니다.
+
+```java
+$ npm install -g yarn
+```
+
+### 오류
+yarn 명령어가 입력이 안되길래 확인해보니까 powerShell에서 권한 입력해줘야 한다길래 후다닥 했습니다 ㅜㅜ
+
+1. PowetShell을 권리자 권한으로 실행
+
+2. get-help Set-ExecutionPolicy 명렁어 입력
+
+3. y 누른 후 실행
+
+## 1-2. CRA로 리액트 앱 생성
+```java
+$ yarn create react-app react_todolist --template typescript
+```
+
+## 1-3. 기본 세팅
+1. 필요 없는 파일 정리
+2. App.tsx 변경
+3. index.tsx 변경
+4. index.html 변경
